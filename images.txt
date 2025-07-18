@@ -50,28 +50,28 @@ portainer/portainer-ce
 #（日志收集）Fluentd
 #fluent/fluentd:v1.16-debian
 #（监控系统）Zabbix
-zabbix/zabbix-server-mysql
+#zabbix/zabbix-server-mysql
 #网络与安全 WireGuard（VPN）
-linuxserver/wireguard:latest
+#linuxserver/wireguard:latest
 #Nmap（网络扫描）
-instrumentisto/nmap:7.94
+#instrumentisto/nmap:7.94
 #（渗透测试）Burp Suite Community
-secsi/burp-suite:community-latest
+secsi/burp-suite
 #数据处理与存储InfluxDB（时序数据库）
-influxdb:2.7-alpine
+influxdb
 #Elasticsearch + Kibana  （需配套使用）
-elasticsearch:8.11 + kibana:8.11
-mariadb:11.2
+elasticsearch:8.11 + kibana
+mariadb
 # AI/机器学习 TensorFlow Serving（模型部署）
-tensorflow/serving:2.15-latest
+tensorflow/serving
 #PyTorch
-pytorch/pytorch:2.2-cuda12.1-cudnn8-runtime
+pytorch/pytorch
 #LangChain（大语言模型工具）
-langchain/langchain:0.1
+langchain/langchain
 # 实用工具（音视频处理）FFmpeg
-jrottenberg/ffmpeg:6.0-alpine
+jrottenberg/ffmpeg
 #ImageMagick（图片处理）
-imagemagick:7.1-alpine
+imagemagick
 #Wkhtmltopdf（HTML 转 PDF）
 madnight/docker-wkhtmltopdf:0.12.6-alpine
 #本地开发环境（本地邮件测试）MailHog
