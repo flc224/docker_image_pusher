@@ -27,10 +27,10 @@
 #php:8.2-fpm-alpine
 #elasticsearch
 #bitnami/kafka:3.6
-rabbitmq:3.12-management
-jenkins/jenkins:lts-jdk17
-gitlab/gitlab-runner:alpine
-prom/prometheus:v2.47
+#rabbitmq:3.12-management
+#jenkins/jenkins:lts-jdk17
+#gitlab/gitlab-runner:alpine
+#prom/prometheus:v2.47
 grafana/grafana:10.2-alpine
 #Portainer（Docker 管理 UI）
 portainer/portainer-ce:2.19
