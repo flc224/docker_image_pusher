@@ -33,9 +33,9 @@
 #prom/prometheus:v2.47
 #grafana/grafana:10.2-alpine
 #Portainer（Docker 管理 UI）
-portainer/portainer-ce:2.19
+portainer/portainer-ce
 #MinIO（对象存储）
-minio/minio:RELEASE.2024-01-16T02-21-44Z
+#minio/minio:RELEASE.2024-01-16T02-21-44Z
 #开发与测试工具 VS Code Server（浏览器版 IDE）
 #codercom/code-server:4.22
 #（交互式编程）Jupyter Notebook
@@ -87,4 +87,4 @@ ruimarinho/bitcoin-core:26.0
 #其他小众但实用的镜像 TiddlyWiki（个人知识库）
 jasonlynx/tiddlywiki:5.3
 #Home Assistant（智能家居）
-homeassistant/home-assistant:2024.7
+homeassistant/home-assistant
