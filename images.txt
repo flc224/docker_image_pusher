@@ -26,7 +26,7 @@
 #golang:1.21-alpine
 #php:8.2-fpm-alpine
 #elasticsearch
-bitnami/kafka:3.6
+#bitnami/kafka:3.6
 rabbitmq:3.12-management
 jenkins/jenkins:lts-jdk17
 gitlab/gitlab-runner:alpine
