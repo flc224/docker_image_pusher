@@ -39,14 +39,14 @@ portainer/portainer-ce
 #开发与测试工具 VS Code Server（浏览器版 IDE）
 #codercom/code-server:4.22
 #（交互式编程）Jupyter Notebook
-jupyter/datascience-notebook:latest
+#jupyter/datascience-notebook:latest
 #（AI 开发专用）
-jupyter/tensorflow-notebook
+#jupyter/tensorflow-notebook
 #Postman（API 测试）
-postman/newman:alpine
+#postman/newman:alpine
 #日志与监控
 #Loki（日志聚合） （搭配 Promtail 使用）
-grafana/loki:2.9
+grafana/loki
 #（日志收集）Fluentd
 fluent/fluentd:v1.16-debian
 #（监控系统）Zabbix
