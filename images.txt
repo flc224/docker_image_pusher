@@ -62,17 +62,17 @@ portainer/portainer-ce
 #Elasticsearch + Kibana  （需配套使用）
 #elasticsearch
 #kibana
-mariadb
+#mariadb
 # AI/机器学习 TensorFlow Serving（模型部署）
-tensorflow/serving
+#tensorflow/serving
 #PyTorch
-pytorch/pytorch
+#pytorch/pytorch
 #LangChain（大语言模型工具）
-langchain/langchain
+#langchain/langchain
 # 实用工具（音视频处理）FFmpeg
-jrottenberg/ffmpeg
+#jrottenberg/ffmpeg
 #ImageMagick（图片处理）
-imagemagick
+#imagemagick
 #Wkhtmltopdf（HTML 转 PDF）
 madnight/docker-wkhtmltopdf:0.12.6-alpine
 #本地开发环境（本地邮件测试）MailHog
