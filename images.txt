@@ -82,10 +82,10 @@ portainer/portainer-ce
 #Adminer（数据库管理 UI）
 #adminer:4.8-fastcgi
 # 区块链相关Geth（以太坊节点）
-ethereum/client-go:stable
+#ethereum/client-go:stable
 #Bitcoin Core
-ruimarinho/bitcoin-core:26.0
+#ruimarinho/bitcoin-core:26.0
 #其他小众但实用的镜像 TiddlyWiki（个人知识库）
-jasonlynx/tiddlywiki:5.3
+jasonlynx/tiddlywiki
 #Home Assistant（智能家居）
 homeassistant/home-assistant
