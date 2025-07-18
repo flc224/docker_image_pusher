@@ -61,7 +61,7 @@ portainer/portainer-ce
 #influxdb
 #Elasticsearch + Kibana  （需配套使用）
 #elasticsearch
-kibana
+#kibana
 mariadb
 # AI/机器学习 TensorFlow Serving（模型部署）
 tensorflow/serving
