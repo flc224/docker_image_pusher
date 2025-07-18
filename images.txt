@@ -76,11 +76,11 @@ portainer/portainer-ce
 #Wkhtmltopdf（HTML 转 PDF）
 #madnight/docker-wkhtmltopdf:0.12.6-alpine
 #本地开发环境（本地邮件测试）MailHog
-mailhog/mailhog:latest
+#mailhog/mailhog:latest
 #LocalStack（AWS 模拟服务）
-localstack/localstack:3.0
+#localstack/localstack:3.0
 #Adminer（数据库管理 UI）
-adminer:4.8-fastcgi
+#adminer:4.8-fastcgi
 # 区块链相关Geth（以太坊节点）
 ethereum/client-go:stable
 #Bitcoin Core
