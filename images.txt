@@ -86,6 +86,6 @@ portainer/portainer-ce
 #Bitcoin Core
 #ruimarinho/bitcoin-core:26.0
 #其他小众但实用的镜像 TiddlyWiki（个人知识库）
-jasonlynx/tiddlywiki
+jasonlynx/tiddlywiki:5.3
 #Home Assistant（智能家居）
 homeassistant/home-assistant
