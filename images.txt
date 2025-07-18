@@ -46,11 +46,11 @@ portainer/portainer-ce
 #postman/newman:alpine
 #日志与监控
 #Loki（日志聚合） （搭配 Promtail 使用）
-grafana/loki
+#grafana/loki
 #（日志收集）Fluentd
-fluent/fluentd:v1.16-debian
+#fluent/fluentd:v1.16-debian
 #（监控系统）Zabbix
-zabbix/zabbix-server-mysql:6.4-ubuntu
+zabbix/zabbix-server-mysql
 #网络与安全 WireGuard（VPN）
 linuxserver/wireguard:latest
 #Nmap（网络扫描）
