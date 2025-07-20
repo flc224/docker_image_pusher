@@ -1,3 +1,7 @@
+kibana
+elasticsearch:7.10.1
+
+
 #nginx
 #ubuntu
 #logstash:7.16.3
@@ -33,7 +37,7 @@
 #prom/prometheus:v2.47
 #grafana/grafana:10.2-alpine
 #Portainer（Docker 管理 UI）
-portainer/portainer-ce
+#portainer/portainer-ce
 #MinIO（对象存储）
 #minio/minio:RELEASE.2024-01-16T02-21-44Z
 #开发与测试工具 VS Code Server（浏览器版 IDE）
