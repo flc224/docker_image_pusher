@@ -1,6 +1,6 @@
-kibana
+kibana:8.13.0
 elasticsearch:7.10.1
-
+elasticsearch:8.13.0
 
 #nginx
 #ubuntu
