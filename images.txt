@@ -1,13 +1,3 @@
-metasploitframework/metasploit-framework
-#docker run -it -p 443:443 metasploitframework/metasploit-framework
-mikesplain/openvas
-#docker run -d -p 443:443 -p 9391:9391 mikesplain/openvas  漏洞扫描与评估
-projectdiscovery/nuclei:latest
-#docker run -it projectdiscovery/nuclei -u https://example.com 快速漏洞扫描
-instrumentisto/dirb
-#docker run --rm instrumentisto/dirb http://target.com 目录爆破
-instrumentisto/nmap
-#docker run --rm instrumentisto/nmap -sS target.com
 openwall/john
 #docker run -it -v $(pwd):/crack openwall/john /crack/hashfile  密码爆破
 dizquetor/hashcat
