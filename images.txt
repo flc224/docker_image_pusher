@@ -1,4 +1,25 @@
-kalilinux/kali-rolling
+metasploitframework/metasploit-framework
+#docker run -it -p 443:443 metasploitframework/metasploit-framework
+owasp/zap2docker-stable
+#docker run -it owasp/zap2docker-stable zap-baseline.py -t https://example.com   web应用扫描
+sullo/nikto
+#docker run --rm sullo/nikto -h http://target.com  服务器扫描
+mikesplain/openvas
+#docker run -d -p 443:443 -p 9391:9391 mikesplain/openvas  漏洞扫描与评估
+projectdiscovery/nuclei:latest
+#docker run -it projectdiscovery/nuclei -u https://example.com 快速漏洞扫描
+paolooin/sqlmap
+#docker run -it paolooin/sqlmap -u "http://target.com/page.php?id=1"
+instrumentisto/dirb
+#docker run --rm instrumentisto/dirb http://target.com 目录爆破
+instrumentisto/nmap
+#docker run --rm instrumentisto/nmap -sS target.com
+openwall/john
+#docker run -it -v $(pwd):/crack openwall/john /crack/hashfile  密码爆破
+dizquetor/hashcat
+#docker run --rm --device=/dev/kfd --device=/dev/dri dizquetor/hashcat -I
+
+#kalilinux/kali-rolling
 #kibana:8.13.0
 #elasticsearch:7.10.1
 #elasticsearch:8.13.0
