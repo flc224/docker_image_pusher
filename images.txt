@@ -1,4 +1,4 @@
-openwall/john
+john
 #docker run -it -v $(pwd):/crack openwall/john /crack/hashfile  密码爆破
 dizquetor/hashcat
 #docker run --rm --device=/dev/kfd --device=/dev/dri dizquetor/hashcat -I
