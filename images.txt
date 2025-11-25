@@ -1,7 +1,5 @@
 metasploitframework/metasploit-framework
 #docker run -it -p 443:443 metasploitframework/metasploit-framework
-owasp/zap2docker-stable
-#docker run -it owasp/zap2docker-stable zap-baseline.py -t https://example.com   web应用扫描
 sullo/nikto
 #docker run --rm sullo/nikto -h http://target.com  服务器扫描
 mikesplain/openvas
