@@ -4,8 +4,6 @@ mikesplain/openvas
 #docker run -d -p 443:443 -p 9391:9391 mikesplain/openvas  漏洞扫描与评估
 projectdiscovery/nuclei:latest
 #docker run -it projectdiscovery/nuclei -u https://example.com 快速漏洞扫描
-paolooin/sqlmap
-#docker run -it paolooin/sqlmap -u "http://target.com/page.php?id=1"
 instrumentisto/dirb
 #docker run --rm instrumentisto/dirb http://target.com 目录爆破
 instrumentisto/nmap
