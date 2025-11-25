@@ -1,7 +1,5 @@
 metasploitframework/metasploit-framework
 #docker run -it -p 443:443 metasploitframework/metasploit-framework
-sullo/nikto
-#docker run --rm sullo/nikto -h http://target.com  服务器扫描
 mikesplain/openvas
 #docker run -d -p 443:443 -p 9391:9391 mikesplain/openvas  漏洞扫描与评估
 projectdiscovery/nuclei:latest
